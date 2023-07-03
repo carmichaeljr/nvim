@@ -18,3 +18,22 @@ vim.diagnostic.config({
 	severity_sort = false,
 	float = true,
 })
+
+require("lspconfig").pylsp.setup{
+    settings={
+        pylsp={
+            plugins={
+                pycodestyle={
+                    ignore={
+                        "E124",
+                        "E126",
+                        "E128",
+                        "E225",
+                        "E226",
+                        "E231",
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,5 +1,5 @@
 # NeovimConfig
-My neovim config files so I can use them everywhere
+My neovim config files so I can use them everywhere.
 
 ## Installation
 
@@ -21,9 +21,15 @@ git clone --depth 1 https://github.com/wbthomason/packer.nvim\
  ~/.local/share/nvim/site/pack/packer/start/packer.nvim
 ```
 
+Finally install ripgrep:
+
+```
+sudo apt-get install ripgrep
+```
+
 ## Usage
 
-Clone the repository in the ~/.config directory. When you first start neovim you may see some errors being printed, this is normal for the first time. To fix just run the following:
+Clone the repository in the ```~/.config``` directory. When you first start neovim you may see some errors being printed, this is normal for the first time. To fix just run the following:
 
 ```
 :PackerSync
