@@ -35,4 +35,5 @@ return require('packer').startup(function(use)
 	}
 
     use { 'rhysd/git-messenger.vim' }
+    use { 'unblevable/quick-scope' }
 end)

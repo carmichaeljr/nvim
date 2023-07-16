@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/jcarmichael/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["git-messenger.vim"] = {
+    loaded = true,
+    path = "/home/jcarmichael/.local/share/nvim/site/pack/packer/start/git-messenger.vim",
+    url = "https://github.com/rhysd/git-messenger.vim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/home/jcarmichael/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
@@ -153,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/jcarmichael/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["quick-scope"] = {
+    loaded = true,
+    path = "/home/jcarmichael/.local/share/nvim/site/pack/packer/start/quick-scope",
+    url = "https://github.com/unblevable/quick-scope"
   },
   ["telescope.nvim"] = {
     loaded = true,
